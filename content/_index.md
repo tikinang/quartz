@@ -1,27 +1,44 @@
 ---
-title: 🪴 Quartz 3.
-enableToc: false
+created: 2022-08-03T14:42:20+02:00
+lastmod: 2022-12-15T18:17:13+01:00
+title: Index
+tags: []
+aliases: []
 ---
+# Hi entities!
+...and welcome to my [[forest/New Approach To Composing Obsidian Knowledge Base|digital forest]], second brain, knowledge-base... **I invite you to get lost :)**
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+# Who Am I?
+- call myself "**Tikinang**" (my first nickname, it sounds asian, but I am [caucasian](https://en.wikipedia.org/wiki/Caucasian_race)) 🤙
+- live in **Prague, Czech Republic**  🇨🇿
+- providing for myself as **back-end Go engineer** 💻🦫
+- striving for becoming **athlete-scientist-entrepreneur** trio
+- **[BJJ](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)** enthusiast and **competitor** 🥋🏆
+- enjoy...
+	- going to a **pub with friends** 🍻
+	- **sports** of all kinds ⚽🏀🏊‍♂️🎾
+	- AOIs: **money**, **green technology**, **personal growth** 🌍💰🌳
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+**[[forest/Professional Résumé|Résumé]]** for head-hunters.
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+# Welcome to the forest...
+Feel free to explore the forest... Go ahead and dive in! Here are some starting points, if you wish :)
+- [[forest/Why NOT to Eat Animals or Their Products?|Why NOT to Eat Animals or Their Products?]]
+- [[forest/Quartz-Forest|Quartz-Forest]]
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+All of my notes [**HERE!**](https://tikinang.github.io/quartz/forest)
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+# Recent Notes
+- [[forest/Investment Guidelines 2022|Investment Guidelines 2022]]
+- [[forest/Man's Search for Meaning|Book Summary: Man's Search for Meaning]]
+- [[forest/We don't lose 2% of our money when there is 2% inflation|We don't lose 2% of our money when there is 2% inflation]]
+- [[forest/Quartz-Forest|Quartz-Forest]]
+- [[forest/Designing the Infrastructure of My Future Home|Designing the infrastructure of my future home]]
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
+# Coming up...
+- Shrooms Experience and Research
+- [[forest/Failure Résumé|A Failure Résumé]]
+	- opposite of [[forest/My Achievements|My Achievements]]
+	- as in https://jzhao.xyz/posts/a-failure-resume
 
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
-
+# Enjoy!

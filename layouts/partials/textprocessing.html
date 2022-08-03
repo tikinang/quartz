@@ -58,6 +58,7 @@
       {{$searchtitle = (replace $searchtitle "&ldquo;" "\"") }}
       {{$searchtitle = (replace $searchtitle "&rsquo;" "'") }}
       {{$searchtitle = (replace $searchtitle "&lsquo;" "'") }}
+      {{$searchtitle = (replace $searchtitle "_index" "/") }}
       {{$curpage = $page.GetPage $searchtitle }}
     {{ end }}
     {{$relpath := relURL $path}}
@@ -70,7 +71,7 @@
       {{$link := printf "<a href=\"%s%s\" rel=\"noopener\" class=\"internal-link\" data-src=\"%s\">%s</a>" $href $block $href $display}}
       {{$content = replace $content . $link}}
     <!-- If path to existing file -->
-    {{else if fileExists $relpath}}
+    {{else if fileExists (strings.TrimPrefix "/quartz" $relpath)}}
       {{$splitpath := split $relpath "/"}}
       {{$dirname := first (sub (len $splitpath) 1) $splitpath | path.Join | urlize}}
       {{$basename := index (last 1 $splitpath) 0}}
@@ -135,5 +136,8 @@
   {{$fixed := printf "<mark>%s</mark>" (replace . "==" "")}}
   {{$content = replace $content . $fixed}}
 {{end}}
+
+{{/* Replace point references */}}
+{{ $content = $content | replaceRE `\^([a-zA-Z0-9_]{6})` `<a href="#${1}"><span id="${1}" class="hanchor" ariaLabel="Anchor">${0}</span></a>` }}
 
 {{ $content | safeHTML }}

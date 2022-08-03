@@ -1,19 +1,12 @@
 # Quartz
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+My personal [Quartz](https://quartz.jzhao.xyz/) repository. Quartz is publishing mechanism for linked `.md` files (Obsidian style), that runs on Hugo.
 
-1. Extremely fast natural-language search
-2. Customizable and hackable design based on Hugo
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in CJK + Latex Support and Admonition-style callouts
-5. Support for both Markdown Links and Wikilinks
+**I'm not the creator of this tool...** check-out the creator of Quartz!
+> [github.com/jackyzha0/quartz](https://github.com/jackyzha0/quartz)
 
-Check out some of the [amazing gardens that community members](https://quartz.jzhao.xyz/notes/showcase/) have published with Quartz!
-
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
-
-🔗 Get Started: https://quartz.jzhao.xyz/
-
-![Quartz Example Screenshot](./screenshot.png)*Quartz Example Screenshot*
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Implementation details
+- I use slightly altered version of original Quartz (see git diff).
+- I push into `content` folder from my private Obsidian repository.
+- But first I make some changes to frontmatter (add title and lastmod parameters) with [Obsifix](https://github.com/tikinang/obsifix) before pushing.
+- I use `Obsidian Git` community plugin for back-up and synchronization of my Obsidian vault.

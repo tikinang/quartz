@@ -1,12 +1,9 @@
 baseURL = "https://tikinang.github.io/quartz/"
 languageCode = "en-us"
-googleAnalytics = "REPLACE-WITH-YOURS"
+googleAnalytics = "G-L4SPRC30P1"
 relativeURLs = false
 disablePathToLower = true
-ignoreFiles = [
-    "/content/.obsidian/*",
-    "/content/archive/*",
-]
+ignoreFiles = []
 summaryLength = 30
 paginate = 50
 enableGitInfo = true

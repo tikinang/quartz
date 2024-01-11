@@ -1,0 +1,328 @@
+clientId,clientCreated,clientOldID,companyName,languageId,currencyId,id,serviceName,serviceCreated,serviceIdentification,specification,monthPrice,Tarif Name,Data limit [TB],MaxDomain,Location,MaxDomain,Location,userName v CDN,Poznámka
+H3AAv4sEQW-e_MEBOV1_Sw,2012-02-13 23:00:00.000000,1976,"FG Forrest, a.s.",cs,CZK,-k0TXY-GQRSP7wkrTTpm4g,CDN,2018-11-12 16:54:20.374653,PROFI CDN - EVROPA,PROFI CDN - EVROPA,1736.00,,,,,5,,,2 možní uživatelé v CDN; co je to za balíček?
+0vRPqPNvSP-ZftrefB17Cw,2019-03-01 10:00:25.396828,3028,"DaniDarx, s.r.o.",cs,CZK,-n4neNtOTMalguLi4xOgmd,CDN,2021-02-24 10:33:00.892133,CDN Small,free trial CDN small do 2TB,1076.00,Small,2,,,,,danidarx,
+OhdV-wAWSJWO_9v9ACmqMQ,2017-10-31 23:00:00.000000,2827,SECTOR 31 s.r.o.,cs,CZK,3aE1V_YTTCGQcplDrI4z5A,CDN,2018-11-17 16:03:11.040206,VSHosting CDN unlimited,.,1925.00,Unlimited,-,,GLOBAL,30,GLOBAL,sector31,
+X2Ts5PSGRDmskdRAdvfh7g,2013-10-31 23:00:00.000000,2329,ShopSys s.r.o.,cs,CZK,5doXAJsbQcW-RgI7xfrghS,CDN,2019-08-23 07:21:32.008664,CDN Individual (pro b2bpartner),CDN Individual (pro b2bpartner),1894.00,,,,,1,GLOBAL,shopsys-b2bpartner,
+I4g8aYiBRGC246RodMJM7A,2018-11-14 23:00:00.000000,2991, HexaDesign s.r.o.,cs,CZK,6q91Hvx9SdmOWWWWvRTx0m,CDN,2022-10-19 11:07:30.090164,CDN Small,"Balíček Small
+úložiště 2 TB",1994.00,Small,2,,,50,GLOBAL,hexad,
+JxZuOES5TYumlrt6aCZeoT,2020-08-21 10:31:56.133561,3196,Topforsport s.r.o.,cs,CZK,7sa7C2_dRkiXgBJ7hNMREG,M2 Managed Server,2020-08-26 15:28:18.294418,t4s-proxmox,"5 fyzické servery + 10 ks virt
+
+t4s-proxmox1, t4s- proxmox2, t4s-proxmox3
+CPU: 1x AMD EPYC 7702P 64core
+RAM: 256GB DDR4
+HDD: 2x 960GB NVMe SSD v RAID1, 2x 960GB NVMe SSD v RAID1
+
+t4s-db1, t4s-db2
+CPU: 2x AMD EPYC 7662 64core
+RAM: 512GB DDR4
+HDD: 2x 960GB NVMe SSD v RAID1
+
+virtuály:
+t4s-lb1, lb2
+t4s- www1, www2, www3
+t4s-redis1, redis2
+t4s-elastic
+t4s-elkstack-smtp
+t4s-dev
+t4s-mongo1 - smluvně pod 2022200107 (cena za správu 1x VM 2500 Kč), realizace VM v tiketu JTZNH)
+
+neomezená CDN
+datový prostor o minimální velikost 480GB SSD
+
+upravené čl. ve smlouvě 8.3., 9.5.
+
+- Dev server + Gitlab je zprovozněn a kvůli chybě obchoďáka není zpoplatněný. Zahrnout cenu dev serveru v případě optimalizace/upgradu infrastruktury.",267348.00,Unlimited,-,,GLOBAL,0,GLOBAL,topforsport,
+DzbEFNDYQVaRmtVJjfKr7A,2018-04-11 22:00:00.000000,2924,"Martinus, s.r.o.",cs,EUR,9tSe6GJ9RueYTIWkEHyk5Q,Managed cluster,2018-11-25 14:05:18.486602,CDN,Poskytovatel zajistí uživateli službu VSHosting CDN pro cachování statického obsahu webových aplikací uživatele bez omezení přenosu dat.,0.00,Unlimited,-,,,,,,
+lPZoRCIMR-WbTjFiKA7BbM,2020-02-03 08:14:06.052785,3148,BMM Retail CZ s.r.o.,cs,CZK,C4hIp-m_SPGcZ7zFb8kTYO,CDN,2022-10-19 14:35:22.982062,CDN-Large,CDN-Large do 10TB,7187.00,Large,10,,,50,GLOBAL,bmmretail,
+CHzzU9D2TvGHVogUGaDe2B,2020-05-14 13:07:22.840810,3168,P.S.V. ZANZIBAR limited,cs,CZK,cqNfO93MSU6snS7w-BiBNE,M1 Managed Server,2020-05-14 13:36:48.860372,zanzibarlimited,"1x server ""zanzibarlimited"":
+
+CPU: 2x vCPU
+RAM: 6GB
+HDD: 100GB SSD
+
+- CDN small (do 2TB měsíčně)",2719.00,Small,2,,,5,GLOBAL,zanzibar,
+xPvOiQt_TjSM6a1CHJub0w,2014-11-30 23:00:00.000000,2525,Pilulka Lékárny a.s.,cs,CZK,cWqCwjYqSyid-kXriUUeRx,CDN,2021-03-16 09:15:36.064509,CDN,"CDN u klienta funguje historicky, ale nebyla zaevidovaná",0.00,,,,,10,GLOBAL,pilulka,
+mI-wyWWTRFSTn7dF4mUk5A,2013-08-31 22:00:00.000000,2327,pelicantravel.com s.r.o.,cs,EUR,EBvgtNMZQDWnBTC45dT2Av,M2 Managed Server,2020-04-03 12:35:33.616872,"pelikan-ng-lb1,2 a pelikan-ng-db1,2,3","5x fyzický server
+
+""pelikan-ng-lb1,2""
+CPU: 1x Intel Xeon 4core
+RAM: 32GB
+HDD: 2x 240GB SSD v RAID1
+
+""pelikan-ng-db1,2,3""
+CPU: 2x Intel Xeon 8core
+RAM: 128GB
+HDD: 4x 960GB SSD v RAID10
+
+- CDN
+- 50GB FTP prostoru
+
+! od 39 měsíce provozu služby budou platit 1504EUR !",1851.00,,,,,0,GLOBAL,pelicantravel,
+SbLtYjtuRCqO0-jMxzoRFQ,2011-03-14 23:00:00.000000,1830,CMC ONLINE s.r.o.,cs,CZK,FxEQthpkSl-GrfjcM0PPKw,CDN,2018-11-02 13:35:08.201862,VSHosting CDN, (6TB) ,4715.00,,6,,,6,GLOBAL,cmconline,
+qIkZX8mdTLOWuR-FpCk5lA,2012-05-31 22:00:00.000000,1982, AURES Holdings a.s.,cs,CZK,G0XYhDPDTYOecI5Nxjow24,CDN,2021-02-08 10:12:32.754906,CND Unlimited,CDN Unlimited,15922.00,Unlimited,-,,GLOBAL,20,GLOBAL,aures,
+DtDDW5TbRfiamtPsOaBvAg,2017-06-30 22:00:00.000000,2804,ELITE Date s.r.o.,cs,CZK,GZ4qRslyRBSmIHB7-HAUoQ,CDN Evropa,2019-04-23 07:06:25.647898,CDN Evropa,"CDN Evropa 
+
+zadávací tiket F653",229.00,,,,EU,5,GLOBAL,elitedate,
+9oqD3b4wQjWJ_7LXoPktfg,2019-05-07 13:06:16.435613,3058,Cajdašrot s.r.o.,cs,CZK,J2Ti_yrTTe2n2RtJubrpvD,CDN,2022-07-01 12:31:00.443776,test,test,0.00,,,,,,,,
+2seVgLmjTMqaUeLzzhDtbw,2019-01-07 10:44:52.286677,3012,Opportunus s.r.o.,cs,CZK,KDWYuxEYRvGtSMqRR2KzTl,CDN,2021-01-21 09:56:53.423907,CDN Global,CDN Global,0.00,,,,,5,GLOBAL,opportunus,
+gR-JjhcJSiihVVWJUjH-Vw,2014-03-31 22:00:00.000000,2416,Kokiska s.r.o.,cs,CZK,Kkj832wGTzCs33HoGyBMVB,CDN,2019-08-02 14:45:14.195682,CDN trial,CDN trial,0.00,,,,,5,GLOBAL,kokiska,
+bAt0hC12RxqmXLZO4N6vL0,2022-02-11 13:38:23.712394,3328,ASTRATEX s.r.o.,cs,CZK,kT-RMDUDRhOsv1fiKJSNRC,CDN,2022-02-11 14:11:05.603544,Neomezená CDN	,"Neomezená CDN	
+",0.00,Unlimited,-,,GLOBAL,20,GLOBAL,astratex,
+X2Ts5PSGRDmskdRAdvfh7g,2013-10-31 23:00:00.000000,2329,ShopSys s.r.o.,cs,CZK,LYOXNXwIR1OZa1-0TJOAe0,CDN,2020-06-25 13:54:54.550310,CDN,"30 domén
+traffic do 10TB
+
+email CDN jako standardní služby pro e-shopy
+",5037.00,,10,30,,1,GLOBAL,shopsys,
+u_jZMR2ZQHa-CZqrxJFGqQ,2017-03-31 22:00:00.000000,2797,"Ateli, s.r.o.",cs,CZK,nBaveLznS4mvEFhZKrBhXw,CDN,2018-11-22 14:22:05.644389,VSHosting CDN unlimited,"VSHosting CDN unlimited
+
++extra 5 URL
+",5613.00,Unlimited,-,plus 5 extra,GLOBAL,99,GLOBAL,ateli,
+ai3wSSVWQqah9uV2kLZnYg,2016-05-31 22:00:00.000000,2715,ARTNET s.r.o.,cs,EUR,oMIEg70IT4Gt7x4Y_XkmWw,CDN,2018-11-16 14:28:30.811080,VSHosting CDN,VSHosting CDN,0.00,,,,,5,GLOBAL,artnet,
+axG-a0gJTZuCrMms4vLMsg,2017-05-06 22:00:00.000000,2814,Flowee s.r.o.,cs,CZK,ORRfo6i-RJKaxzwJBOBMLQ,CDN,2018-11-17 12:10:19.648766,CDN unlimited,.,2096.00,Unlimited,-,,GLOBAL,5,GLOBAL,flowee,
+MHziY5y6R_G6Gx9wadsjJw,2019-05-17 06:54:37.705339,3065,Blueweb s.r.o.,cs,EUR,pka61I_LQXqnhqg0lTby9j,M2 Managed Server,2020-06-18 14:25:45.958646,Managed cluster,"12x server:
+
+blueweb-lb1,2:
+CPU: 1x 8core
+RAM: 32GB
+HDD: 2x 480GB SSD v RAID1
+- 10Gbit ethernet
+
+blueweb-www1:
+CPU: 2x Intel Xeon 18core
+RAM: 128GB
+HDD: 2x 480GB SSD v RAID1, 2x 1,92TB SSD v RAID1
+-10Gbit ethernet
+
+blueweb-www2,3:
+CPU: 2x Intel Xeon 18core
+RAM: 128GB
+HDD: 2x 480GB SSD v RAID1
+-10Gbit ethernet
+
+- 4,5TB centeral storage NetApp
+
+blueweb6:
+CPU: 2x Intel Xeon 8core
+RAM: 64GB
+HDD: 2x 960GB SSD v RAID1
+- 10Gbit ethernet
+
+blueweb-db1-ng, blueweb-db2-ng
+2U HPE DL383G10+ 16x2.5"" (8xSATA + 8xNVMe), dualPSU
+2x AMD EPYC 7702 64core (2/3.5GHz Max Boost,256MB)
+512GB DDR4 3200MHz RAM
+2x 960GB NVMe Samsung PM9A3
+Intel x520 dual 10Gbit SFP+
+
+blueweb-service1,2,3:
+CPU: 2x Intel Xeon 12core
+RAM: 128GB
+HDD: 4x 480GB SSD v RAID10
+- 10Gbit ethernet
+
+blueweb-smtp
+CPU: 1x Intel XEON 6core
+RAM: 32GB
+RAID: 2x 240GB SSD
+
+
+- CDN unlimited
+- DDoS Protect
+- CloudMail Heavy (100GB prostoru, neomezeně emailových schránek, neomezeně zpráv v IMAPu na schránku)",9047.00,Unlimited,-,,GLOBAL,0,GLOBAL,blueweb,
+5plXEekGRBGwuKQHsD-2WA,2017-10-31 23:00:00.000000,2858,BRASTY GROUP s.r.o.,cs,CZK,Q06OuTdFT8eEbAR0JpWX1A,Managed cluster,2019-03-25 14:43:04.665429, VShosting CDN Profi 2TB Europe,VShosting CDN Profi 2TB Europe,1344.00,Small,2,,EU,5,GLOBAL,brasty,
+a1W6ENO2SRaQU76QLz5oot,2020-08-26 06:56:26.666500,3200,Modrý koník s. r. o.,cs,EUR,ql00zaYhQ6O3uLUQz2pFPQ,CDN,2018-11-30 13:03:32.219783,VSHosting CDN ,.,208.80,,,,,15,GLOBAL,modrykonik,
+wRNBCIWeS-6XQfCBNcOUFg,2011-03-30 22:00:00.000000,1835,"POWERPLAY MANAGER, s.r.o.",cs,CZK,R6lFgxjiR-ejvAeCEMaYRw,CDN,2018-12-03 08:51:31.229967,Neomezená CDN - Evropa+USA (Evropa zdarma) ,.,20651.00,Unlimited,,,GLOBAL,15,GLOBAL,powerplaymanager,
+k2A5ls13T_iLoIRJnmBN3Q,2019-05-13 12:30:32.654916,3062,FLOMAT s.r.o.,cs,CZK,RoXSSEWFTLuoD8YWbrgxwA,CDN,2018-11-27 13:52:28.600931,CDN Evropa do 500GB,CDN Evropa do 500GB,486.00,,0.5,,EU,5,GLOBAL,flomat,
+Zb1la9bZTSa9olgTL0yluD,2022-01-20 09:09:32.489704,3321,Be Lenka s.r.o.,cs,EUR,swMD6Z8WT0akbqCdoQFYZV,CDN,2022-01-28 13:44:56.359863,CDN,"CDN
+
+",245.50,,,,,20,GLOBAL,belenka,
+gyPHTXbbR2WwSOLX0FMaut,2019-07-12 14:22:14.334241,3088,Skinners Technologies s.r.o.,cs,CZK,sxdi2S_jSuSBdSMDYJy3KU,Cloud DNS,2022-08-05 13:11:33.347567,CDN do 2TB,CDN do 2TB,0.00,Small,2,,,30,GLOBAL,skinnerstechnologies,
+H3AAv4sEQW-e_MEBOV1_Sw,2012-02-13 23:00:00.000000,1976,"FG Forrest, a.s.",cs,CZK,TmrNCuJdR5WYlC2B5cJKZw,CDN,2018-11-03 16:26:13.141894,Starter CDN - Evropa,.,478.00,,,,EU,5,,fgforrestpim,
+pLD_yb4VSa6kJyha__VXz4,2021-09-13 07:45:22.420281,3297,"Flatio, s.r.o.",cs,CZK,trDo598qTJ-d34jjDwWA1O,CDN,2021-09-15 09:41:09.237159,CDN Small - do 2TB měsíčně,CDN Small - do 2TB měsíčně,0.00,Small,2,,,100,GLOBAL,flatio,
+b3PuliwTRcmRjJXAN57rtA,2012-06-07 22:00:00.000000,2063,Books & Books s.r.o.,cs,CZK,UXAXosMZTYe_GAmXOF2naQ,CDN starter,2018-11-05 10:23:23.501169,CDN starter,"CDN starter 
+
+- vložena domena ",438.00,,,,,2,GLOBAL,ajshop,
+bLa0ACWGTZGNfw5-1vYQXZ,2020-04-02 13:15:46.614137,3161,"PEARS HEALTH CYBER EUROPE, s.r.o.",cs,CZK,VBTqCeisRAOpt4i1jD9yUT,M2 Managed Server,2020-04-03 14:02:09.308810,M2 Managed (produkce a lab),"4 ks fyzických a 40 ks virtuálních serverů
+
+Produkce:
+
+„farmacie-kube-proxmox1“,„farmacie-kube-proxmox2“,„farmacie-kube-proxmox3“
+CPU: 2x Intel Xeon Gold 6246 12core
+RAM: 256GB
+HDD: 4x 960GB SSD v RAID 10
+HW RAID
+
+""farmacie-git""
+CPU: 8x vCPU
+RAM: 8GB
+HDD: 250GB SSD
+
+23 virtuálů na těchto fyzických serverech:
+farmacie-kube-k8master1-3
+farmacie-kuba-k8worker1-3
+farmacie-kube-etcd-0-2
+farmacie-kube-rabbitmql1-3
+farmacie-kube-rediscache1-3
+farmacie-kube-elastic1-3
+farmacie-kube-pgsql1-3
+farmacie-kube-lb1-2
+
+LAB:
+
+
+„farmacie-kube-lab-master1“, „farmacie-kube-labmaster2“, „farmacie-kube-lab-master3“
+CPU: 4x vCPU
+RAM: 8GB
+HDD: 60GB
+
+„farmacie-kube-lab-worker1“, „farmacie-kube-labworker2“, „farmacie-kube-lab-worker3“
+CPU: 8x vCPU
+RAM: 16GB
+HDD: 120GB
+
+„farmacie-kube-lab-elasticsearch1“
+CPU: 4x vCPU
+RAM: 16GB
+HDD: 120GB
+
+„farmacie-kube-lab-rabbitmq1“
+CPU: 4x vCPU
+RAM: 8GB
+HDD: 60GB
+
+„farmacie-kube-lab-pgsql1“
+CPU: 4x vCPU
+RAM: 16GB
+HDD: 120GB
+
+„farmacie-kube-lab-redis1“
+CPU: 4x vCPU
+RAM: 8GB
+HDD: 60GB
+
+„farmacie-kube-lab-lb1“
+CPU: 2x vCPU
+RAM: 2GB
+HDD: 50GB
+
+„farmacie-proxmox5“
+CPU: 2x Intel Xeon Gold 6246 12core
+RAM: 256GB
+HDD: 4x 960GB SSD v RAID 10
+HW RAID
+
+virtuální servery na proxmox5:
+valentine2.farmacie
+pylos2.farmacie
+log.farmacie
+docker1.farmacie
+
+na sever log.farmacie se nevztahují žádné garance SPLA z č. 3.2., 6 a 7.1.
+
+- CDN bez omezení přenosu dat
+- CloudMail Heavy (neomezeně schránek a zpráv v IMAP na účet, 100 GB prostoru)
+
+Pozor velké množství změněných nebo přidaných ujednání ve smlouvě.
+
+LAB je do konce roku 2020 zdarma (cena labu 23651)",104815.00,Unlimited,-,,GLOBAL,0,GLOBAL,lekarna,
+dXyGG6JESGKiRwlKhtEQTh,2019-12-12 10:42:02.694061,3134,"Sconto Nábytek, s.r.o.",cs,CZK,vv4NrDlSRdOjxsBpb7UBe2,CDN,2020-04-28 08:49:43.023877,CDN,testovací neomezená CDN,0.00,Unlimited,-,,GLOBAL,10,GLOBAL,scontonabytek,
+2yQLrvrMRFuSKtIw8JBGYQ,2018-03-18 23:00:00.000000,2913,Asahi CE & Europe Services s.r.o.,en,CZK,XbeI12wKT9Kq0CGkXrYs6Y,CDN,2021-06-08 14:11:16.406492,CDN - Small,CDN balíček small do 2TB a s limitem 10ti domén,1450.00,,2,10,,100,GLOBAL,asahi,
+4YN8IGUpSDuIHaQgBIxLCA,2018-08-31 22:00:00.000000,2948,"Dedoles, s. r. o.",cs,EUR,xd8Jv39DSnKnTfOau7taVw,CDN,2019-12-27 12:30:54.823899,CDN,"neomezené CDN, součást smlouvy 2018200656 ze dne 12.6.2018",0.00,Unlimited,-,,GLOBAL,10,GLOBAL,dedoles,
+auLL-WnkSxiU0L1Adcjz5w,2011-07-31 22:00:00.000000,1870,OKAY s.r.o.,cs,CZK,XznYYjcrTM-A80vbNTm2Qg,Managed cluster,2018-12-09 18:17:09.029106,Managed cluster okay,"1x webserver + 1x webserver pro nabídkovou aplikaci:
+	- CPU: 2x Intel Xeon 8core
+	- RAM: 64GB
+	- HDD: 2x 120GB SSD v RAID1
+	- RAID: HW RAID
+
+Maria DB galera cluster 3x server:
+- procesor: 2x 12core
+- RAM: 96 GB
+- HDD: 8x 240GB v RAID10+ (RAID 100)
+- RAID: HW RAID + BBU
+
+1 servisní server: 
+- CPU: 1x Intel Xeon 6core
+- RAM: 32 GB
+- HDD: 4x 480GB SSD vRAID10
+- RAID: HW RAID
+
+1x LAB server:
+-CPU: 2x Intel Xeon E5-2670
+- RAM: 196 GB
+- HDD: 4x 480GB SSD v RAID1+0 + 2x 240GB
+RAID: HW RAID s 1GB cache
++ 12-16 virtuálních spravovaných systémů
+
+okay-lab-nfs disk 400GB
+
+3x other server (noSQL, search):
+	- CPU: 2x Intel Xeon 8core
+	- RAM: 64GB
+	- HDD: 4x 240GB SSD v RAID1+0
+	- RAID: HW RAID
+        - 10Gbit síťové karty
+
+1x okay-db-backup
+	- CPU: 1x Intel Xeon 8core
+	- RAM: 64GB
+	- HDD: 4x 1TB HDD v RAID10
+	- RAID: HW RAID
+
+1x okay-lb1
+	- CPU: 1x Intel Xeon E5-1630 V4
+	- RAM: 32GB
+	- HDD: 2x 240GB SSD
+	- RAID: HW RAID
+        - 10Gbit síťové karty
+
+okay-lb1,2 nebyly smluvně evidované, byly přidány do smlouvy v dodatku č. 13 ale bez navýšení ceny za HW. Cena v dodatku +600 Kč je pouze za upgrade sítovek (řešeno v tiketu TTFF)
+
+1x centrální storage NetApp FASS2554HA - 7x 400GB SSD + 1x 400GB SSD HotSpare a využitelnou kapacitou včetně bezpečnostní rezervy 1,5TB
+
+Současné www a db servery (mimo galera cluster) se ruší.
+
+V případě potřeby zprovozní poskytovatel uživateli další dva (2) webové servery stejné konfigurace v ceně služby.
+
+Navýšení zálohování na neomezenou kapacitu.
+
+Poskytovatel dále poskytne uživateli slevu na LAB prostředí ve výši 3.500,-Kč bez DPH měsíčně a slevu na celkový objem služeb ve výši 10.000,-Kč bez DPH měsíčně.
+
+CDN bez omezení přenosu dat
+
+přidání čl. 3.6, v následujícím znění: “Uživatel bere na vědomí bezpečnostní rizika spojená s použitím starších verzí používaného software a s tím související technické potíže, na které se nevztahují čl. 3.2, čl. 3.3, čl. 6 a čl. 7 této smlouvy. Uživatel souhlasí s tím, že poskytovatel nenese odpovědnost za vzniklé situace způsobené nebo související se zastaralým
+softwarovým vybavením serverů. Za zastaralé softwarové vybavení je považována každá verze software, kterou vydavatel označil jako un-supported. Pak se nejedná o poruchu dle čl. 6 smlouvy.",87562.00,Unlimited,-,,GLOBAL,5,GLOBAL,okay,
+I9GSHBHxQma2Vju5gGSV1w,2017-08-31 22:00:00.000000,2823,next CRE s.r.o.,cs,CZK,yWSZQc96R3KsnATsKPsKyw,CDN,2018-11-17 14:03:28.246699,VSHosting CDN,limit 1TB a 30 URL,850.00,,1,30,,30,GLOBAL,nextcre,
+ugzTaOnERVy7Xmqipv-jfw,2019-03-15 11:43:57.046086,3040,eyerim s.r.o.,cs,EUR,YZhp3iCKRFaI13q5UnwW3X,CDN,2022-01-27 14:23:47.875934,CDN Small,CDN Small do 2TB,23.00,,2,,,5,GLOBAL,eyerim,
+-La5454XSWmk2n5Hg8KmVg,2015-11-01 23:00:00.000000,2642,"Vaprio.cz, s.r.o.",cs,CZK,ZmaOI7wXSlC9NYYxmzh7vQ,CDN,2018-11-15 16:42:25.920489,VSHosting CDN unlimited,VSHosting CDN unlimited,1352.00,Unlimited,-,,GLOBAL,,,,
+4YN8IGUpSDuIHaQgBIxLCA,2018-08-31 22:00:00.000000,2948,"Dedoles, s. r. o.",cs,EUR,ZSjIxBTDRe2LQoHYDABEXw,Managed server,2018-11-27 12:17:33.303888,"dedoles-lb1,2, www1,2,3,4, db1,2,3,4","Celkem 10 serverů je vybaveno následujícím hardwarovým vybavením:
+
+2x Loadbalancer:
+- Procesor: 1x AMD EPYC 8core
+- Operační paměť RAM: 128GB DDR4
+- Diskové úložiště: 2x 240GB SSD v RAID1
+- RAID: HW RAID
+2x 10GE síťovky
+
+4x Webserver:
+- Procesor: 1x AMD EPYC AMD 7702P
+- Operační paměť RAM: 128GB
+- Diskové úložiště: 2x 1TB NVMe v RAID1
+- 10GE síťovky
+
+Poskytovatel poskytne 1500GB prostoru z centrální Cloudstorage přístupné přes NFS (netapp).
+
+3x DB-server (db1,2,3):
+- Procesor: 1x 32core AMD APYC
+- Operační paměť RAM: 256GB
+- Diskové úložiště: 2x 1TB NVME SSD
+- 10GE síťovky
+
+1x DB-server (db4):
+- Procesor: 1x 12core
+- Operační paměť RAM: 128GB
+- Diskové úložiště: 2x 1TB NVME SSD
+- 2x 10GE síťovky
+
+-Poskytovatel poskytne uživateli Premium AntiDDOS ochranu, neomezené CDN a migraci dat eshopu.",5772.00,Unlimited,-,,GLOBAL,10,GLOBAL,dedoles,
+KR9czEg7Q4aRayYFx_j9AA,2015-05-31 22:00:00.000000,2597,CloudSailor s.r.o.,cs,CZK,_h9aQ_Z4RMiWhbOGh_xb4T,CDN,2021-10-13 11:11:45.251141,CDN balíček small do 2TB,CDN Small do 2TB dat,1304.00,Small,2,,,20,GLOBAL,cloudsailor,
+HO0s88QGT869dEaMDEAFoQ,2009-11-30 23:00:00.000000,1435,"Notino, s.r.o.",cs,CZK,_RParQqkQqSAsGLTGryMNQ,CDN,2018-10-27 15:27:01.644555,VSHosting CDN unlimited,.,9000.00,Unlimited,-,,GLOBAL,20,GLOBAL,notino,

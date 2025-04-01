@@ -1,6 +1,6 @@
 ---
 created: 2022-12-04T18:11:45+01:00
-lastmod: 2022-12-15T17:20:39+01:00
+lastmod: 2025-04-01T08:27:12+02:00
 title: Wealth
 tags: []
 aliases: []
@@ -12,7 +12,7 @@ I think about wealth and money quite often. I enjoy the topic.
 - [[forest/Investment Guidelines 2022]]
 - [[forest/Road to 100k job]]
 - [[forest/Exchange Traded Fund]]
-- [[forest/Monthly Finance Revision]]
+- [[forest/Účetnictví]]
 
 # Entrepreneurship
 This topic is very closely related to my huge desire to be entrepreneur. Creating a functional and earning company is probably the best way to acquire substantial wealth. [[forest/Entrepreneurship|Follow through.]]

@@ -1,10 +1,13 @@
 ---
 created: 2022-08-02T14:27:06+02:00
-lastmod: 2022-12-04T22:10:58+01:00
+lastmod: 2025-05-11T10:37:05+02:00
 title: How to Use Obsidian
 tags: []
 aliases: []
 ---
+> [!note]
+> And of course some basic note.
+
 # Obsidian
 Knowledge base software based on linkable plain text .md (=markdown) files. ^228ca7
 ## My personal usage guidelines
@@ -106,6 +109,3 @@ tag:#wealth
 
 > [!todo]
 > I need to do this..
-
-> [!note]
-> And of course some basic note.

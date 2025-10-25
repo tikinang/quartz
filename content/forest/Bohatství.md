@@ -1,7 +1,7 @@
 ---
 created: 2022-12-04T18:11:45+01:00
-lastmod: 2025-04-01T08:27:12+02:00
-title: Wealth
+lastmod: 2025-10-25T14:25:57+02:00
+title: Bohatství
 tags: []
 aliases: []
 ---
